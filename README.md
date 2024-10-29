@@ -50,9 +50,9 @@ A estrutura do projeto segue as camadas de MVC, organizando as responsabilidades
 - **Descrição**: Retorna as informações de um produto específico pelo ID.
 
 ### Atualizar Produto
-- **GET** `/api/produtos/{id}`
+- **PUT** `/api/produtos/{id}`
 - **Descrição**: Atualiza as informações de um produto existente.
 
 ### Excluir Produto
-- **GET** `/api/produtos/{id}`
+- **DELETE** `/api/produtos/{id}`
 - **Descrição**: xclui um produto do banco de dados pelo ID.
